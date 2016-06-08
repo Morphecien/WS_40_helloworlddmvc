@@ -33,5 +33,6 @@
   	<module>model</module>
   	<module>view</module>
   	<module>contract</module>
+  	<module>Main</module>
   </modules>
 </project>

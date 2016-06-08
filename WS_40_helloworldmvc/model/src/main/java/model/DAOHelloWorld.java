@@ -46,13 +46,13 @@ public class DAOHelloWorld {
 	
 	protected boolean open(){
 		try {
-			System.out.println("Debut connection...");
+	//		System.out.println("Debut connection...");
 			Class.forName("com.mysql.jdbc.Driver");
-			System.out.println("	Driver ok... connection en cours");
+	//		System.out.println("	Driver ok... connection en cours");
 			this.connection = DriverManager.getConnection(DAOHelloWorld.URL, DAOHelloWorld.LOGIN, DAOHelloWorld.PASSWORD);
-			System.out.println("	connection réussie... initialisation du statement");
+	//		System.out.println("	connection réussie... initialisation du statement");
 			this.statement = this.connection.createStatement();
-			System.out.println("	initialisation réussie... (:");
+	//		System.out.println("	initialisation réussie... (:");
 		}
 		catch (final ClassNotFoundException e) {
 			e.printStackTrace();
@@ -62,7 +62,7 @@ public class DAOHelloWorld {
 			e.printStackTrace();
 			return false;
 		}
-		System.out.println("On est connecté ! (:") ;
+	//	System.out.println("On est connecté ! (:") ;
 		return true;
 	}
 
@@ -73,6 +73,6 @@ public class DAOHelloWorld {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ah ben... c'est fini !!! <musique de fin>");
+	//	System.out.println("Ah ben... c'est fini !!! <musique de fin>");
 	}
 }

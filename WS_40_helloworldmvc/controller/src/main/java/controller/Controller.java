@@ -3,10 +3,10 @@ package controller;
 import contract.*;
 
 public class Controller {
-	private IView view ;
-	private IModel model ;
+	private final IView view ;
+	private final IModel model ;
 	
-	public Controller(IView view, IModel model) {
+	public Controller(final IView view, final IModel model) {
 		this.view = view ;
 		this.model = model ;
 	}

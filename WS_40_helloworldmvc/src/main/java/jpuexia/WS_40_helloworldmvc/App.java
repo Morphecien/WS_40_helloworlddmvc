@@ -7,10 +7,8 @@ package jpuexia.WS_40_helloworldmvc;
 
 public class App 
 {
-    public static void main( String[] args )
+    public static void main2( String[] args )
     {
-    //    System.out.println( "Hello World!" );
-    //	Controller control = new Controller() ;
-    //	control.run() ;
+        System.out.println( "Hello World!" );
     }
 }
