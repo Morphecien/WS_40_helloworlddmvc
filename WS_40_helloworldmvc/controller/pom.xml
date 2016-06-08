@@ -16,7 +16,7 @@
     <dependency>
     	<groupId>jpuexia</groupId>
     	<artifactId>contract</artifactId>
-    	<version>0.0.1-SNAPSHOP</version>
+    	<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>
